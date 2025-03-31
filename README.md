@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @edgarkater
-- 👀 I’m interested in codling
+- 👀 I’m interested in coding
 - 🌱 I’m currently learning golang
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me dabennson@gmail.com
