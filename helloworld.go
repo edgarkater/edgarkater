@@ -1,13 +1,22 @@
-package edgarkater
+package main
 
 import (
 	"fmt"
-	"gfx"
 )
 
-func main() {
-	fmt.Println("Hello World")
-	gfx.Fenster(200, 200)
-	gfx.TastaturpufferLesen1()
+func add(a, b int) int {
+	return a + b
+}
 
+func main() {
+	var a, b int
+
+	fmt.Println("Hello World")
+	fmt.Print("Gib die erste Zahl ein: ")
+	fmt.Scanln(&a)
+	fmt.Print("Gib die zweite Zahl ein: ")
+	fmt.Scanln(&b)
+
+	summe := add(a, b)
+	fmt.Println("Das Ergebnis lautet: ", summe)
 }
